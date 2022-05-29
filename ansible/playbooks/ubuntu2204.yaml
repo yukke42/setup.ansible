@@ -1,0 +1,5 @@
+- hosts: localhost
+  connection: local
+  roles:
+    - role: yukke42.dev_env.linuxbrew
+    - role: yukke42.dev_env.packages
