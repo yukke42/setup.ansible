@@ -6,3 +6,4 @@
     - role: yukke42.dev_env.fish
     - role: yukke42.dev_env.swapfile
     - role: yukke42.dev_env.slack
+    - role: yukke42.dev_env.vscode
