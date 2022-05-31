@@ -1,0 +1,6 @@
+- repository: autowarefoundation/autoware
+  files:
+    - source: .markdown-link-check.json
+    - source: .markdownlint.yaml
+    - source: .pre-commit-config-optional.yaml
+    - source: .yamllint.yaml
