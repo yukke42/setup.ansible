@@ -1,0 +1,7 @@
+# Required
+namespace: yukke42
+name: dev_env
+version: 0.1.0
+readme: README.md
+authors:
+  - Yusuke Muramatsu <yukke42@users.noreply.github.com>

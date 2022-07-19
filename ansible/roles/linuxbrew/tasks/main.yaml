@@ -1,0 +1,24 @@
+# https://docs.brew.sh/Homebrew-on-Linux
+- name: Install Homebrew dependencies
+  ansible.builtin.apt:
+    name:
+      - build-essential
+      - procps
+      - curl
+      - file
+      - git
+    update_cache: true
+  become: true
+
+# https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html
+- name: Install Homebrew on Linux
+  ansible.builtin.shell:
+    cmd: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    executable: /bin/bash
+  become: false
+
+- name: add Homebrew to PATH
+  ansible.builtin.shell:
+    cmd: eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    executable: /bin/bash
+  become: false

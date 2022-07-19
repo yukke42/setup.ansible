@@ -1,0 +1,10 @@
+- hosts: localhost
+  connection: local
+  roles:
+    - role: yukke42.dev_env.linuxbrew
+    - role: yukke42.dev_env.packages
+    - role: yukke42.dev_env.fish
+    - role: yukke42.dev_env.swapfile
+    - role: yukke42.dev_env.slack
+    - role: yukke42.dev_env.vscode
+    - role: yukke42.dev_env.cuda

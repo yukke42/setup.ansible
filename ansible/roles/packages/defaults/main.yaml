@@ -1,0 +1,16 @@
+apt_packages:
+  - terminator
+  - htop
+  - vim
+  - build-essential
+  - locate
+  - direnv
+  - silversearcher-ag
+homebrew_packages:
+  - fd
+  - fzf
+  - jq
+  - ghq
+  - peco
+pip_packages:
+  - tensorboard
