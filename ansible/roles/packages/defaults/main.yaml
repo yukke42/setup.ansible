@@ -1,4 +1,5 @@
 apt_packages:
+  - curl
   - terminator
   - htop
   - vim

@@ -9,3 +9,8 @@
     name: fish
     update_cache: true
   become: true
+
+# https://github.com/jorgebucaran/fisher#installation
+- name: Install fisher
+  ansible.builtin.shell:
+    cmd: curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
