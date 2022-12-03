@@ -7,11 +7,14 @@ apt_packages:
   - locate
   - direnv
   - silversearcher-ag
+  - ccache
 homebrew_packages:
   - fd
   - fzf
   - jq
   - ghq
   - peco
+  - direnv
 pip_packages:
   - tensorboard
+  - argcomplete
