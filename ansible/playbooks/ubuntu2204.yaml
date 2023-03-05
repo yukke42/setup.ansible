@@ -7,4 +7,4 @@
     - role: yukke42.dev_env.swapfile
     - role: yukke42.dev_env.slack
     - role: yukke42.dev_env.vscode
-    - role: yukke42.dev_env.cuda
+    # - role: yukke42.dev_env.cuda
