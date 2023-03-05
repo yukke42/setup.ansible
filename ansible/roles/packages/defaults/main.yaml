@@ -8,6 +8,8 @@ apt_packages:
   - direnv
   - silversearcher-ag
   - ccache
+  - ncdu
+  - psensor
 homebrew_packages:
   - fd
   - fzf
