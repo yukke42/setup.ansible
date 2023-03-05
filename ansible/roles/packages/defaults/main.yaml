@@ -10,6 +10,7 @@ apt_packages:
   - ccache
   - ncdu
   - psensor
+  - trash-cli
 homebrew_packages:
   - fd
   - fzf
