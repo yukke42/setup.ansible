@@ -25,6 +25,8 @@ apt_packages:
   - libxmlsec1-dev
   - libffi-dev
   - liblzma-dev
+  # japanese
+  - ibus-mozc
 homebrew_packages:
   - fd
   - fzf
