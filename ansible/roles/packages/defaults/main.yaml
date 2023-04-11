@@ -12,6 +12,7 @@ apt_packages:
   - psensor
   - trash-cli
   - python-is-python3
+  - tmux
   # pyenv
   - libssl-dev
   - zlib1g-dev
